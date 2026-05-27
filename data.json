@@ -1,0 +1,197 @@
+{
+  "personal": {
+    "initials": "PADI",
+    "name": "Her Ugonna",
+    "typing_roles": [
+      "ML pipelines",
+      "data solutions",
+      "AI systems",
+      "ETL infrastructure",
+      "prediction models"
+    ],
+    "tagline": "MSc Data Science · Physics-trained · London",
+    "bio": "Physics-trained analytical mind turned Data Scientist. MSc with Commendation from University of Hertfordshire. I build end-to-end data solutions — from XGBoost credit risk pipelines to multi-agent AI systems and global ETL infrastructure. Currently at InPost UK managing real-time data operations across a national distribution network. Right to work in the UK. Available immediately.",
+    "contact_headline": "Let's build something.",
+    "contact_subtext": "Open to Data Scientist, Data Analyst, Data Engineer and ML Engineer roles. London and remote. Available immediately.",
+    "footer_tagline": "Built with intention. Driven by data."
+  },
+  "credentials": [
+    "MSc Data Science · Commendation · Hertfordshire",
+    "BSc Physics · Mahatma Gandhi University",
+    "Azure AI Certified · Google Cloud · DataCamp"
+  ],
+  "contact": {
+    "email": {
+      "label": "Email",
+      "url": "#"
+    },
+    "linkedin": {
+      "label": "LinkedIn",
+      "url": "#"
+    },
+    "github": {
+      "label": "Github",
+      "url": "#"
+    },
+    "phone": {
+      "label": "Phone",
+      "url": "#"
+    },
+    "cv": {
+      "label": "CV",
+      "url": "#"
+    }
+  },
+  "projects": [
+    {
+      "title": "Credit Risk Detection ML Pipeline",
+      "badge": "ROC-AUC 0.9792",
+      "badge_color": "amber",
+      "role": "Lead Data Scientist",
+      "period": "Jan–Apr 2026",
+      "tags": [
+        "Python",
+        "XGBoost",
+        "SMOTE",
+        "Scikit-Learn",
+        "SQL"
+      ],
+      "description": "End-to-end ML pipeline on 284,807 transactions. SMOTE for 0.17% class imbalance. XGBoost vs Random Forest vs Logistic Regression. Feature importance — V14 as dominant predictor.",
+      "link": "#"
+    },
+    {
+      "title": "Autonomous R&D AI Orchestrator",
+      "badge": "70% Effort Reduced",
+      "badge_color": "copper",
+      "role": "Lead AI Engineer",
+      "period": "Sep–Dec 2024",
+      "tags": [
+        "Python",
+        "CrewAI",
+        "Llama 3.3",
+        "Azure AI",
+        "LLM Tooling"
+      ],
+      "description": "Multi-agent AI system automating complex analytical workflows end-to-end. Specialist agents parse, mine, surface insights and generate stakeholder-ready outputs automatically.",
+      "link": "#"
+    },
+    {
+      "title": "World Bank Global ETL Suite",
+      "badge": "190 Countries",
+      "badge_color": "gold",
+      "role": "Data Engineer",
+      "period": "Jun–Aug 2024",
+      "tags": [
+        "Python",
+        "Pandas",
+        "SQL",
+        "Big Data",
+        "ETL"
+      ],
+      "description": "Modular ETL pipeline processing longitudinal datasets across 190 countries. Cleaned, validated and transformed global sustainability and energy data with rigorous quality checks.",
+      "link": "#"
+    },
+    {
+      "title": "SaaS Customer Retention Engine",
+      "badge": "Automated Reporting",
+      "badge_color": "sienna",
+      "role": "Data Scientist",
+      "period": "Mar–May 2024",
+      "tags": [
+        "Python",
+        "Cohort Analysis",
+        "Classification",
+        "Automation"
+      ],
+      "description": "Risk-scoring and retention prediction engine using cohort analysis and behavioural pattern recognition. Automated stakeholder-ready reporting from raw customer data.",
+      "link": "#"
+    }
+  ],
+  "skills": [
+    {
+      "category": "CORE",
+      "color": "amber",
+      "items": [
+        "SQL",
+        "Python",
+        "R",
+        "Excel"
+      ]
+    },
+    {
+      "category": "ML & STATS",
+      "color": "gold",
+      "items": [
+        "XGBoost",
+        "Random Forest",
+        "SMOTE",
+        "Scikit-Learn",
+        "Neural Networks"
+      ]
+    },
+    {
+      "category": "AI & CLOUD",
+      "color": "copper",
+      "items": [
+        "CrewAI",
+        "Llama 3.3",
+        "Azure AI",
+        "Google Cloud",
+        "LLM Tooling"
+      ]
+    },
+    {
+      "category": "DATA ENGINEERING",
+      "color": "sienna",
+      "items": [
+        "ETL",
+        "Big Data",
+        "Data Validation",
+        "Automated Reporting"
+      ]
+    },
+    {
+      "category": "BI & DEV",
+      "color": "sand",
+      "items": [
+        "Power BI",
+        "Tableau",
+        "Matplotlib",
+        "Git",
+        "Docker",
+        "Agile"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "InPost UK",
+      "location": "London",
+      "period": "Sep 2022 – Present",
+      "role": "C3 Operator — Systems & Data Operations",
+      "bullets": [
+        "Monitored real-time data flows across national distribution network",
+        "Performed systematic root-cause analysis and data validation in production",
+        "Collaborated cross-functionally with ops, logistics and systems teams"
+      ]
+    },
+    {
+      "company": "Concept Builders",
+      "location": "Kerala, India",
+      "period": "Jun 2020 – Aug 2022",
+      "role": "Project Manager & Business Systems Lead",
+      "bullets": [
+        "Translated raw operational data into business insights for senior stakeholders",
+        "Implemented data-driven tracking and reporting systems",
+        "Led cross-functional teams across engineering, operations and client accounts"
+      ]
+    }
+  ],
+  "nav": [
+    "About",
+    "Projects",
+    "Skills",
+    "Experience",
+    "Contact"
+  ]
+}

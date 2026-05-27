@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Lijin Viji Varghese — Data Scientist & ML Engineer based in London. MSc Data Science, Physics-trained, building end-to-end data solutions." />
+  <title>PADI — Her Ugonna · Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo" aria-label="Go to top">PADI</a>
+      <ul class="nav-links" id="nav-links" role="list"></ul>
+      <a href="#" class="btn-cv" id="nav-cv-btn" aria-label="Download CV">CV</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── MOBILE MENU ── -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul class="mobile-links" id="mobile-links" role="list"></ul>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero" aria-label="Introduction">
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero-decorations" aria-hidden="true">
+      <div class="deco deco-cube">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,5 95,28 95,72 50,95 5,72 5,28" stroke="currentColor" stroke-width="1.5" fill="none" />
+          <polygon points="50,5 50,50 95,28" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5" />
+          <polygon points="50,5 50,50 5,28" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5" />
+          <line x1="50" y1="50" x2="50" y2="95" stroke="currentColor" stroke-width="1" opacity="0.5" />
+        </svg>
+      </div>
+      <div class="deco deco-triangle" aria-hidden="true"></div>
+      <div class="deco deco-rings">
+        <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="60" rx="55" ry="20" stroke="currentColor" stroke-width="1.5" fill="none" />
+          <ellipse cx="60" cy="60" rx="55" ry="20" stroke="currentColor" stroke-width="1" fill="none"
+            transform="rotate(60 60 60)" opacity="0.6" />
+          <ellipse cx="60" cy="60" rx="55" ry="20" stroke="currentColor" stroke-width="1" fill="none"
+            transform="rotate(-60 60 60)" opacity="0.4" />
+          <circle cx="60" cy="60" r="4" fill="currentColor" />
+          <circle cx="115" cy="60" r="3" fill="currentColor" opacity="0.8" />
+        </svg>
+      </div>
+      <div class="deco deco-bars" aria-hidden="true">
+        <span style="--h:60%"></span>
+        <span style="--h:90%"></span>
+        <span style="--h:45%"></span>
+        <span style="--h:75%"></span>
+        <span style="--h:55%"></span>
+        <span style="--h:85%"></span>
+      </div>
+      <div class="deco deco-hex" aria-hidden="true">
+        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="50,10 82,28 82,65 50,83 18,65 18,28" stroke="currentColor" stroke-width="1.5" fill="none" />
+          <polygon points="50,22 68,32 68,55 50,65 32,55 32,32" stroke="currentColor" stroke-width="1" fill="none"
+            opacity="0.6" />
+          <polygon points="50,35 60,40 60,52 50,57 40,52 40,40" stroke="currentColor" stroke-width="1"
+            fill="currentColor" opacity="0.2" />
+        </svg>
+      </div>
+      <div class="deco deco-scatter" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-tag" aria-hidden="true">&lt;/&gt;</div>
+      <h1 class="hero-name" id="hero-name"></h1>
+      <p class="hero-sub">
+        I build <span class="typing-text" id="typing-text" aria-live="polite"></span><span class="cursor"
+          aria-hidden="true">|</span>
+      </p>
+      <p class="hero-tagline" id="hero-tagline"></p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary" id="cta-work">View My Work</a>
+        <a href="#contact" class="btn-secondary" id="cta-contact">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="section-label">01 · ABOUT</div>
+    <div class="container">
+      <h2 class="section-title reveal" id="about-title">About Me</h2>
+      <div class="about-grid">
+        <p class="about-bio reveal" id="about-bio"></p>
+        <div class="about-creds reveal" id="about-creds"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="section" aria-labelledby="projects-title">
+    <div class="section-label">02 · PROJECTS</div>
+    <div class="container">
+      <h2 class="section-title reveal" id="projects-title">Things I've built.</h2>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section" aria-labelledby="skills-title">
+    <div class="section-label">03 · SKILLS</div>
+    <div class="container">
+      <h2 class="section-title reveal" id="skills-title">What I work with.</h2>
+      <div class="skills-wrap" id="skills-wrap"></div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience" class="section" aria-labelledby="exp-title">
+    <div class="section-label">04 · EXPERIENCE</div>
+    <div class="container">
+      <h2 class="section-title reveal" id="exp-title">Where I've been.</h2>
+      <div class="exp-timeline" id="exp-timeline"></div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section section-contact" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 class="contact-headline reveal" id="contact-title"></h2>
+      <p class="contact-sub reveal" id="contact-sub"></p>
+      <div class="contact-links reveal" id="contact-links"></div>
+      <a href="#" class="btn-download reveal" id="btn-cv-download">Download CV</a>
+    </div>
+    <footer>
+      <p id="footer-tagline"></p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
